@@ -2,7 +2,7 @@
 session_start();
 
 // Muodosta tietokantayhteys
-include_once 'config/db.php';
+include_once '../config/db_pdo.php';
 
 // Tarkista tullaanko oikealta lomakkeelta
 if (!isset($_POST['firstname']) || !isset($_POST['lastname'])) {

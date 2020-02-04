@@ -1,10 +1,8 @@
 <?php
-// include_once 'db_config.php';
 
-$host = "localhost";
-$user = "root";
-$pwd = "";
-$db = "blog_db";
+// Open PDO-connection
+
+include_once 'db_config.php';
 
 try {
     $conn = new PDO("mysql:$host=;dbname=$db;charset=utf8", $user, $pwd);

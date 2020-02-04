@@ -1,10 +1,5 @@
 <?php
-// include_once 'db_config.php';
-
-$host = "localhost";
-$user = "root";
-$pwd = "";
-$db = "blog_db";
+include_once 'db_config.php';
 
 // Create connection
 $conn = new mysqli($host, $user, $pwd, $db);
